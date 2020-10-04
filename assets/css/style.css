@@ -2,14 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
-}
-.text-left {
-      text-align: left;
-    }
-    
-    .text-right {
-      text-align: right;
+
+
+
+
+
 
     }
     body {
@@ -67,13 +64,9 @@
     font-weight: bolder;
     font-size: 18px;
     text-decoration: underline;
-  
-  
-  
-  
- 
-
   }
+
+
   .intro h2 {
     color: #313838;
     background-color: #85bfe0;
@@ -83,67 +76,86 @@
     bottom: 15px;
     right: 15px;
  
-  }
-.grid-container {
-  display: grid;
-  display: grid;
-  max-width: 82em;
-  max-height: auto;
-  margin: auto;
-  grid-template-columns: 1fr;
-  grid-template-rows: .4fr .4fr .4fr;
-  gap: 0px .5px;
-  grid-template-areas:
-    "about-me"
-    "work"
-    "contact";
-    
+  
 }
 
-  .about-me h2 {
+  .bio h2 {
   color: #024e76;
   font-size: 30px;
-  padding: 20px;
+  padding: 10px;
     border-right: 2px solid #024e76;
-    height: 260px;
+    height: 200px;
     position: absolute;
-    left:90px;
-    margin-right: -20px;
-   top: 500px;
+    left:11%;
+    margin-right: 30px;
+    bottom: 290px;
+   
   }
 
     
-  .about-me p {
-    padding: 200px;
-    float: right;
-    width: 70%;
+  .bio  { 
+    width: 900px;
+    margin: 0 auto 30px auto;
+    padding:50px;
+  
+    overflow: auto;
+    color: #256385;
+
+   
+    
 
   
 }
   .work h2{
-    font-size: 30px;
     color: #024e76;
-   padding: 30px;
+    font-size: 30px;
+   padding: 10px;
     border-right: 2px solid #024e76;
-    height: 260px;
+    height: 330px;
     position: absolute;
-    left:13%;
-    margin-right: 60px;
-    bottom: -100px;
+    left:14%;
+    margin-right: 30px;
+    bottom: -70px;
   
   }
+  .work p {
+    padding: 200px;
+    float: right;
+    width: 70%;
+    color: #256385;
 
+  }
+.contact nav {
+  width: 900px;
+  margin: 0 auto 30px auto;
+  padding:80px;
+  overflow: auto;
+}
+ 
+.contact nav ul li {
+  display: inline;
+}
+.contact nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  color: #256385;
+
+  font-size: 18px;
+  width: 900px;
+  left: 40px;
+
+}
   .contact h2 {
  color: #024e76;
+ font-size: 30px;
   padding: 30px;
     border-right: 2px solid #024e76;
     height: 100px;
     position: absolute;
-    left: 4%;
-    margin-right: -30px;
+    left: 7%;
+    margin-right: 30px;
     bottom: -260px;
   }
-
 section {
   padding: -1px;
 }
