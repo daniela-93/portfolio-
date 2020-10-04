@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.text-left {
+      text-align: left;
+    }
+    
+    .text-right {
+      text-align: right;
+
+    }
+    body {
+      /* body font */
+      color: #313838;
+      font-family:  Arial, sans-serif;
+    }
+    
+    /*apply styles to <header> */
+    header {
+      padding: 40px 10px;
+      background-color: #454949;
+    }
+      .intro{
+        background-image: url("../images/background.jpg");
+        height: 350px;
+        padding:-60px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+    
+    /*let's select all <a> that are in <header h1> and do this with them */
+    h1 {
+      color: #313838;
+      background-color: #85bfe0;
+      font-size: 36px;
+      text-indent: 55px;
+     
+      font-weight: bold;
+      margin: -19px;
+      position: absolute;
+     
+    
+     
+    }
+  
+  header a {
+    text-decoration: none;
+    color: #85bfe0;
+    
+    
+   
+  }
+  header nav {
+    float: right; 
+    margin: 7px 0;
+  }
+  header nav ul li {
+    display: inline;
+  }
+  header nav ul li a {
+    margin: 0 20px;
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: underline;
+  
+  
+  
+  
+ 
+
+  }
+  .intro h2 {
+    color: #313838;
+    background-color: #85bfe0;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+ 
+  }
+.grid-container {
+  display: grid;
+  display: grid;
+  max-width: 82em;
+  max-height: auto;
+  margin: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: .4fr .4fr .4fr;
+  gap: 0px .5px;
+  grid-template-areas:
+    "about-me"
+    "work"
+    "contact";
+    
+}
+
+  .about-me h2 {
+  color: #024e76;
+  font-size: 30px;
+  padding: 20px;
+    border-right: 2px solid #024e76;
+    height: 260px;
+    position: absolute;
+    left:90px;
+    margin-right: -20px;
+   top: 500px;
+  }
+
+    
+  .about-me p {
+    padding: 200px;
+    float: right;
+    width: 70%;
+
+  
+}
+  .work h2{
+    font-size: 30px;
+    color: #024e76;
+   padding: 30px;
+    border-right: 2px solid #024e76;
+    height: 260px;
+    position: absolute;
+    left:13%;
+    margin-right: 60px;
+    bottom: -100px;
+  
+  }
+
+  .contact h2 {
+ color: #024e76;
+  padding: 30px;
+    border-right: 2px solid #024e76;
+    height: 100px;
+    position: absolute;
+    left: 4%;
+    margin-right: -30px;
+    bottom: -260px;
+  }
+
+section {
+  padding: -1px;
+}
